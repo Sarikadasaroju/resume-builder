@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+}
+
+.app-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.form-section {
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.preview-section {
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #2563eb;
+  color: white;
+  margin-right: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+hr {
+  margin: 15px 0;
+}
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 15px;
+}
+.modern-template {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.professional-template {
+  background: #f5f5f5;
+  padding: 20px;
+  border-left: 6px solid navy;
+}
+
+.creative-template {
+  background: #fff8e7;
+  padding: 20px;
+  border: 3px dashed orange;
+}
+
+.minimal-template {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.template-selector {
+  margin-bottom: 20px;
+}
