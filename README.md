@@ -1,16 +1,181 @@
-# React + Vite
+# Resume Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Full Stack Resume Builder application built using React.js, Node.js, Express.js, SQLite, and JWT Authentication.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+(Add deployment link here after deployment)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- User Registration
+- User Login
+- JWT Authentication
+- Protected Routes
+- Resume Creation
+- Personal Information Section
+- Education Section
+- Skills Section
+- Projects Section
+- Certifications Section
+- Profile Photo Upload
+- Resume Preview
+- PDF Download
+- Save Resume
+- Update Resume
+- Delete Resume
+- Multiple Resume Templates
+- Responsive Design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+### Frontend
+
+- React.js
+- React Router
+- Axios
+- HTML2Canvas
+- jsPDF
+- CSS
+
+### Backend
+
+- Node.js
+- Express.js
+- SQLite
+- JWT
+- bcrypt
+
+---
+
+## Project Structure
+
+```
+resume-builder
+│
+├── backend
+│   ├── database
+│   ├── middleware
+│   ├── routes
+│   └── server.js
+│
+├── src
+│   ├── components
+│   ├── pages
+│   ├── services
+│   ├── styles
+│   └── App.jsx
+│
+└── package.json
+```
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Sarikadasaroju/resume-builder.git
+```
+
+### Frontend Setup
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend Setup
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+---
+
+## API Endpoints
+
+### Authentication
+
+#### Register
+
+```http
+POST /api/auth/register
+```
+
+#### Login
+
+```http
+POST /api/auth/login
+```
+
+---
+
+### Resume
+
+#### Get Resumes
+
+```http
+GET /api/resumes
+```
+
+#### Create Resume
+
+```http
+POST /api/resumes
+```
+
+#### Update Resume
+
+```http
+PUT /api/resumes/:id
+```
+
+#### Delete Resume
+
+```http
+DELETE /api/resumes/:id
+```
+
+---
+
+## Screenshots
+
+### Login Page
+
+(Add Screenshot)
+
+### Resume Builder
+
+(Add Screenshot)
+
+### Resume Preview
+
+(Add Screenshot)
+
+---
+
+## Future Enhancements
+
+- AI Resume Suggestions
+- Resume Sharing Link
+- Resume Templates Marketplace
+- Dark Mode
+- Export to DOCX
+- Resume Analytics
+
+---
+
+## Author
+
+Sarika
+
+GitHub:
+https://github.com/Sarikadasaroju
