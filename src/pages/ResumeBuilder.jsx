@@ -69,9 +69,9 @@ function ResumeBuilder() {
     },
   ])
 
-  useEffect(() => {
-    loadResumes()
-  }, [])
+//  useEffect(() => {
+ //   loadResumes()
+  //}, [])
 
   const loadResumes = async () => {
     try {
